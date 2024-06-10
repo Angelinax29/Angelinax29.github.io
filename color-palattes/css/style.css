@@ -1,0 +1,36 @@
+#p1-heading {
+    font-family: cursive;
+    text-align: center;
+}
+#p1-c1 {
+    background-color: #72ADB1;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p1-c2 {
+    background-color: #0A4F53;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p1-c3 {
+    background-color: #A63C00;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p1-c4 {
+    background-color: #FF8A44;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding: 24px;
+}
+#p2-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
