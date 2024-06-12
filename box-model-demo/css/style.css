@@ -1,0 +1,19 @@
+div {
+    border: 10px groove tomato;
+    margin: 24px 60px 90px 10px;
+    /* 
+        Shorthand margin/padding can have up to 4 margins.
+
+        1 value margin applies that value to all 4 sides.
+
+        2 value margin: the first value is applied to the top and bottom.
+        the second value is applied to the left and right.
+
+        3 value margin: the first value is applied to the top, the second 
+        value is applied to the left and right, and the third value is applied
+        to the bottom.
+        
+        4 value margin: the first value is the top, the second value is the
+        right, the third value is the bottom, and the fourth value is the left.
+    */
+}
