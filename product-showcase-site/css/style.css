@@ -32,7 +32,7 @@ img {
 }
 
 .img-1 {
-    display: inline-block;
+    display: block;
         width: 0px auto;
         background-color: skyblue;
         border: 30px dotted black;
@@ -60,7 +60,7 @@ img {
 }
 
 .img-3 {
-    display: inline-block;
+    display: block;
         width: 0px auto;
         background-color: skyblue;
         border: 30px dotted black;
