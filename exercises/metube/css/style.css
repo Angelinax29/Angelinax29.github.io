@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #c7a7e2;
+}
+
+img{
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar content"
+    ;
+}
+
+header {
+    grid-area: header;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header #me {
+    color: #111;
+}
+
+header #tube {
+    color: #fff;
+    background-color: #ff80d9;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+aside ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 15px dotted #e274c1;
+}
+
+aside ul a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 12px;
+    transition: 
+        background-color 0.5s,
+        border-radius 0.5s
+    ;
+}
+
+aside ul a:hover {
+    background-color: #ff80d9;
+    border-radius: 12px;
+}
+
+#content {
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.metube-item {
+    width: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+
+}
+
+.metube-item .thumbnail {
+    aspect-ratio: 16/9;
+    background: radial-gradient(at top left,crimson, orange);
+}
+
+.metube-item h4 {
+    margin: 8px;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.metube-item .channel {
+margin-bottom: 4px;
+}
+
+.metube-item img {
+    border: 3px solid #ffffff;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+a i {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+aside h2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ff80d9;
+    padding: 4px;
+    border-radius: 12px;
+}
