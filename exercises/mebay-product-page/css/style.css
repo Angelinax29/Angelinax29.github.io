@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    background-color: #b3bed4;
+    color: black;
+}
+
+img {
+    width: 900px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+#side-imgs {
+    border: 0.5px solid black;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+#column-1 {
+   text-align: center;
+   align-items: center;
+}
+
+#column-2 {
+    align-items: center;
+}
+
+#column-3 {
+    align-items: center;
+    text-align: center;
+}
+
+
+div h1 {
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#subheading {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.buttons #button1 {
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.buttons #button2 {
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.buttons #button3 {
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.buttons #button4 {
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+#section {
+    background-color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#comment {
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+}
+
+#text {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
