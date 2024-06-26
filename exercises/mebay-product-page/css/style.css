@@ -66,13 +66,14 @@ div h1 {
 }
 
 .buttons #button1 {
-    background-color: orange;
+    background-color: rgb(48, 45, 255);
     border-radius: 12px;
     border: none;
     color: white;
     text-align: center;
     text-decoration: underline;
     font-size: 16px;
+    padding: 20px;
 }
 
 .buttons #button2 {
@@ -83,6 +84,7 @@ div h1 {
     text-align: center;
     text-decoration: underline;
     font-size: 16px;
+    padding: 20px;
 }
 
 .buttons #button3 {
@@ -93,6 +95,7 @@ div h1 {
     text-align: center;
     text-decoration: underline;
     font-size: 16px;
+    padding: 20px;
 }
 
 .buttons #button4 {
@@ -103,6 +106,7 @@ div h1 {
     text-align: center;
     text-decoration: underline;
     font-size: 16px;
+    padding: 20px;
 }
 
 #section {
@@ -113,13 +117,13 @@ div h1 {
 }
 
 #comment {
-    text-decoration: none;
+    list-style-type: none;
     font-style: italic;
     text-align: center;
 }
 
 #text {
-    text-decoration: none;
+    list-style-type: none;
     font-style: italic;
     font-weight: bold;
     text-align: center;
