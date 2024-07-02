@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#hero h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    padding: 30px;
+    margin: 180px;
+}
+
+#hero {
+    background-image: url(../images/hero-img-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#layout h1 {
+    text-align: center;
+    color: #ac1818;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#gallery h3 {
+    color: #ac1818;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#gallery {
+    columns: 3 auto;
+    column-gap: 10px;
+    gap: 10px;
+    align-items: center;
+    padding: 24px;
+    max-width: 900px;
+    max-height: 1000px;
+    align-items: center;
+    img {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 28px;
+    }
+}
