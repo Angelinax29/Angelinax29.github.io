@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #e1a26c, #f3b633);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    color: white;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
