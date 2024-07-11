@@ -11,7 +11,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #ffb71d, #ed8c37, #ec771d);
+    background: linear-gradient(to bottom, #ffffff, #9da5b6, #385e72);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,17 +25,140 @@ body {
 }
 
 #navbar a {
+    display: inline-block;
     text-decoration: none;
     color: white;
     padding: 24px;
 }
 
+.drop-contain {
+    position: relative;
+}
+
+.drop-menu {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s
+    ;
+}
+
+.drop-contain:hover .drop-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.drop-menu a {
+    background-color: #4b6483;
+    width: 100%;
+    min-width: 200px;    
+}
+
+ #navbar .drop-menu a:hover {
+    background-color: #385e72;
+    color: white;
+}
+
 #header {
     position: sticky;
+    z-index: 1;
     top: 0px;
 }
 
-img {
-    width: 70%;
+#img1 img {
+    width: 100%;
 }
 
+.hero-text {
+    text-align: center;
+    position: absolute;
+    bottom: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    background-color: #c09c7d55;
+    padding: 3px;
+    border: 3px solid #4b6483;
+    border-radius: 24px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.headings {
+    text-align: center;
+    color: black;
+    background-color: #9da5b699;
+    padding: 3px;
+    border: 10px dotted #4b6483;
+    border-radius: 24px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-contain {
+    display: flex;
+    padding: 25px;
+    gap: 25px;
+    margin: 25px auto;
+    width: 90vw;
+    max-width: 1200px;
+    border-bottom: 0.5px solid #009290;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 1;
+    border: 2px solid #849edd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #333c51;
+    background: linear-gradient(-50deg, #9da5b6, white, #333c51);
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.card p {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card .btn {
+    color: white;
+    text-decoration: none;
+    background-color: #57759c;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    padding: 8px;
+    border: 3px solid #39545b;
+    text-align: center;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+    &:hover {
+        background-color: transparent;
+        color: #57759c;
+    }
+}
