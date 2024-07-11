@@ -5,10 +5,13 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url(../images/sl_011023_55240_03.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #e1a26c, #f3b633);
+    background: linear-gradient(to bottom, #ffb71d, #ed8c37, #ec771d);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,3 +34,8 @@ body {
     position: sticky;
     top: 0px;
 }
+
+img {
+    width: 70%;
+}
+
