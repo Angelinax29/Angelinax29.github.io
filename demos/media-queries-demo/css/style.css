@@ -118,8 +118,8 @@ body {
         flex-wrap: wrap;
     }
     a {
-            flex: 50%;
-            text-align: center;
+        flex: 50%;
+        text-align: center;
     }
     .intro {
         flex-direction: column;
