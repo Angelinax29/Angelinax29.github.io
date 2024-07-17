@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(-50deg, green, #769191, rgb(77, 117, 173)
+    );
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    color: white;
+    padding: 36px 0px;
+    h1, h2 {
+        text-align: center;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.hero {
+    background-image: url(../images/nfl.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    color: #000000;
+    h1 {
+        display: flex;
+        text-align: center;
+        position: absolute;
+        top: 250px;
+        right: 884px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 68px;
+        font-style: italic;
+    }
+    h4 {
+        display: flex;
+        text-align: center;
+        position: absolute;
+        top: 300px;
+        right: 820px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        font-style: italic;
+        border-radius: 24px;
+        color: white;
+        padding: 12px;
+    }
+    h2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 300px;
+        color: white;
+        position: absolute;
+        bottom: 1px;
+        right: 820px;
+        text-align: center;
+    }
+}
+
+.party {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: white;
+    padding: 12px;
+}
+
+.btns .btn {
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 36px;
+    text-align: center;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 12px;
+    transition: all 0.5s;
+    &:hover {
+        box-shadow: 
+            -5px 0px 20px #0202cb,
+            5px 0px 20px #2c9cd0,
+            inset 0px 0px 10px rgba(18, 201, 201, 0.333)    
+        ;
+    }
+}
+
+@media screen and (min-width: 480px ) {
+    .light-container, .single-column, .hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #hero h1 {
+        font-size: 50px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #hero h4, h2 {
+        font-size: 26px;
+        margin: 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #btn #party {
+        margin: 4px 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #questions {
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+#questions {
+    text-align: center;
+}
