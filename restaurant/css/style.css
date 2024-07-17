@@ -303,28 +303,73 @@ body {
     align-items: center;
 }
 
-#layout {
-    background-color: #000000;
-    padding: 12px;
-}
-
-#layout h3 {
-    color: white;
+.sub {
     text-align: center;
-    font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
-.cropped-grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    grid-auto-rows: 400px;
-    padding: 24px;
-    img {
+.card {
+    
+    width: 350px;
+    height: 350px;
+    background-image: url(../images/bruschetta.jpg);
+    background-size: cover;
+    .content {
+        background-color: #00000099;
+        color: white;
         width: 100%;
         height: 100%;
-        object-fit: cover;
-        border-radius: 12px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+}
+
+.card:hover .content {
+    opacity: 1;
+}
+
+#c2 {
+    background-image: url(../images/wings.jpg);
+}
+
+#c3 {
+    background-image: url(../images/calamari.jpg);
+}
+
+#c4 {
+    background-image: url(../images/spin-art-wonton.jpg);
+}
+
+#c5 {
+    background-image: url(../images/lobster-bisque.jpg);
+}
+
+#c6 {
+    background-image: url(../images/Jalapeno-Poppers.jpg);
+}
+
+#c7 {
+    background-image: url(../images/);
+}
+
+#c8 {
+    background-image: url(../images/);
+}
+
+#c9 {
+    background-image: url(../images/);
+}
+
+#c10 {
+    background-image: url(../images/);
+}
+
+#c11 {
+    background-image: url(../images/);
+}
+
+#c12 {
+    background-image: url(../images/);
 }
