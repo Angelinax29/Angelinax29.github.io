@@ -305,6 +305,20 @@ body {
     align-items: center;
 }
 
+#menu-btn a {
+    text-decoration: none;
+    color: black;
+    background-color: gold;
+    border-radius: 25px;
+    padding: 6px;
+    border: 1px solid white;
+    &:hover {
+        background-color: transparent;
+        color: #f5fdf6;
+    }
+
+}
+
 .sub {
     text-align: center;
 }
@@ -415,8 +429,31 @@ body {
     background-image: url(../images/sushi.jpg);
 }
 
-@media screen and (max-width: 768px) {
-    #navbar #navlinks #navlogo {
-        width: 50px;
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    #navbar, #flavor .cards, .card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #hero-text h1 {
+        font-size: 50px;
+    }
+    #hero-text h2 {
+        font-size: 26px;
+        margin: 0px;
+    }
+    #hero-img {
+        margin: 4px 0px;
+    }
+    .card .img {
+        display: flex;
+        flex-direction: column;
+        margin: 24px;
+    }
+    .two-cards {
+        margin: 48px 0px;
+        .card {
+            padding: 0px;
+        }
     }
 }
