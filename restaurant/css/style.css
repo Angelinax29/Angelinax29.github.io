@@ -7,6 +7,8 @@ body {
     margin: 0px;
 }
 
+
+
 #img1 img {
    width: 225px;
    padding: 12px;
@@ -158,7 +160,7 @@ body {
     display: flex;
 }
 
-.card img {
+#flavor .card img {
     height: 200px;
     object-fit: cover;
     border-radius: 25px;
@@ -173,7 +175,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.card {
+#flavor .card {
     display: inline-block;
     width: 100vw;
     text-align: center;
@@ -184,16 +186,16 @@ body {
     background: linear-gradient(-50deg, #7b9d73, white, #7b9d73);
 }
 
-.card h2 {
+#flavor .card h2 {
     font-size: 36px;
     margin-top: 12px;
 }
 
-.card p {
+#flavor .card p {
     font-size: 18px;
 }
 
-.card .btn {
+#flavor .card .btn {
     color: black;
     text-decoration: none;
     background-color: #5f7e53;
@@ -306,16 +308,30 @@ body {
 .sub {
     text-align: center;
 }
+#menu-cards {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px
+}
 
-.card {
-    
+#menu-cards .sub {
+    flex: 100%;
+}
+
+#menu-cards .card {
     width: 350px;
     height: 350px;
     background-image: url(../images/bruschetta.jpg);
     background-size: cover;
+    border: 2px solid white;
+    border-radius: 36px;
     .content {
         background-color: #00000099;
+        padding: 25px;
         color: white;
+        border: 2px solid transparent;
+        border-radius: 25px;
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -326,50 +342,81 @@ body {
     }
 }
 
-.card:hover .content {
+#menu-cards .card:hover .content {
     opacity: 1;
+    
 }
 
-#c2 {
+#menu-cards #c2 {
     background-image: url(../images/wings.jpg);
 }
 
-#c3 {
+#menu-cards #c3 {
     background-image: url(../images/calamari.jpg);
 }
 
-#c4 {
+#menu-cards #c4 {
     background-image: url(../images/spin-art-wonton.jpg);
 }
 
-#c5 {
+#menu-cards #c5 {
     background-image: url(../images/lobster-bisque.jpg);
 }
 
-#c6 {
+#menu-cards #c6 {
     background-image: url(../images/Jalapeno-Poppers.jpg);
 }
 
-#c7 {
-    background-image: url(../images/);
+#menu-cards #c7 {
+    background-image: url(../images/rasta-pasta.jpg);
 }
 
-#c8 {
-    background-image: url(../images/);
+#menu-cards #c8 {
+    background-image: url(../images/burger-fries.jpg);
 }
 
-#c9 {
-    background-image: url(../images/);
+#menu-cards #c9 {
+    background-image: url(../images/shrimp-kabobs.jpg);
 }
 
-#c10 {
-    background-image: url(../images/);
+#menu-cards #c10 {
+    background-image: url(../images/pizza.jpg);
 }
 
-#c11 {
-    background-image: url(../images/);
+#menu-cards #c11 {
+    background-image: url(../images/chicken-tacos.jpg);
 }
 
-#c12 {
-    background-image: url(../images/);
+#menu-cards #c12 {
+    background-image: url(../images/poke-bowl.jpg);
+}
+
+#menu-cards #c13 {
+    background-image: url(../images/quesadilla.jpg);
+}
+
+#menu-cards #c14 {
+    background-image: url(../images/spagetti.jpg);
+}
+
+#menu-cards #c15 {
+    background-image: url(../images/surf-n-turf-ribeye.avif);
+}
+
+#menu-cards #c16 {
+    background-image: url(../images/chicken-waffles.jpg);
+}
+
+#menu-cards #c17 {
+    background-image: url(../images/salmon-bowl.webp);
+}
+
+#menu-cards #c18 {
+    background-image: url(../images/sushi.jpg);
+}
+
+@media screen and (max-width: 768px) {
+    #navbar #navlinks #navlogo {
+        width: 50px;
+    }
 }
